@@ -47,7 +47,7 @@ Connection::testconnection();
         <p class="text-center welcome-text">
           <strong>Bienvenido a Hotel Magno</strong>
           <br>
-          Lorem ipsum      
+          Con vista a las playas bordeadas de palmeras del mar Caribe, Hilton Playa del Carmen, An All Inclusive Resort, le ofrece una escapada elegante en un resort galardonado con el premio Four Diamond otorgado por la AAA (Asociación Americana del Automóvil). Disfrute de un alojamiento de solo suites, un sinfín de opciones de alimentos y bebidas, y una amplia variedad de servicios y comodidades, ideales para parejas, viajes de incentivo y fiestas de boda. A pasos de la famosa Quinta Avenida, nuestro resort le permite descubrir lo mejor de la Riviera Maya.      
         </p>
       </div>
     </div>
