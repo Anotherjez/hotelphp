@@ -1,6 +1,9 @@
 <?php
 
 include('header.php');
+include('libs/utils.php');
+
+Connection::testconnection();
 
 ?>
 

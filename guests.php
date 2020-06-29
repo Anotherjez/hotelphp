@@ -3,6 +3,8 @@
 include('header.php');
 include('libs/utils.php');
 
+Connection::testconnection();
+
 if($_POST){
 
     foreach($_POST as &$value){

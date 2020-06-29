@@ -7,17 +7,32 @@
 
         function __construct(){
             $this->myCon = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+
+            if($this->myCon === false){
+                echo<<<ECHO
+                <script>
+                    window.location = 'install.php';
+                </script>";
+                ECHO;
+                exit();
+            }
         }
 
         function __destruct(){
             mysqli_close($this->myCon);
         }
-
+        public static function testconnection(){
+            if(self::$instancia == null){
+                self::$instancia = new Connection();
+                return true;                
+            }            
+        }
         public static function execute($sql){
 
             if(self::$instancia == null){
                 self::$instancia = new Connection();
             }
+
             $rs = mysqli_query(self::$instancia->myCon, $sql);
 
             return $rs;
