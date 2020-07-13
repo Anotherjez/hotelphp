@@ -1,6 +1,6 @@
 
 
-<section id="footer">
+<footer id="footer" class="footer" style="padding-top: 60px;">
   <div class="container">
     <div class="row">
       <div class="mx-auto">
@@ -17,6 +17,6 @@
         <p class="h6">© Todos los derechos reservados.<a class="text-green ml-2" href="https://www.instagram.com/anotherjez/" target="_blank">Jesus Mercado</a></p>
       </div>	
 		</div>
-	</section>
+	</footer>
 </body>
 </html>

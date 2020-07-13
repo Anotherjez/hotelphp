@@ -1,9 +1,9 @@
 <?php
 
-if(file_exists("libs/configx.php")){
-  include('libs/configx.php');
+if(file_exists("../libs/configx.php")){
+  include('../libs/configx.php');
 }
-include('libs/connection.php');
+include('../libs/connection.php');
 
 
 function LoadInstall(){
@@ -30,6 +30,22 @@ function LoadInstall(){
               <label for="servernamelabel">Servidor de la base de datos</label>
               <input required type="text" class="form-control" id="servername" name="servername" placeholder="localhost">
               <small id="servernameHelp" class="form-text text-muted">Deberías recibir esta información de tu proveedor de alojamiento web, si localhost no funciona.</small>
+            </div>
+            <div class="form-group">
+              <label for="namelabel">Nombre completo</label>
+              <input required type="text" class="form-control" id="name" name="name" placeholder="Ingres tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="adminuserlabel">Nombre de usuario</label>
+              <input required type="text" class="form-control" id="adminuser" name="adminuser" placeholder="admin">
+            </div>
+            <div class="form-group">
+              <label for="passwordlabel1">Contraseña</label>
+              <input required type="password" class="form-control" id="password1" name="password1">
+            </div>
+            <div class="form-group">
+              <label for="passwordlabel2">Repetir contraseña</label>
+              <input required type="password" class="form-control" id="password2" name="password2">
             </div>
             <button type="submit" class="btn btn-outline-primary">Enviar</button>
           </form>

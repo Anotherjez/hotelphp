@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Hotel Magno</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.scss">
+    <link rel="stylesheet" href="../assets/css/style.scss">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -22,7 +22,9 @@
     <div class="nav">
       <a class="btn btn-primary" href="guests.php"><span class="font-weight-bold">Registrarse</span></a>
       <a class="nav-item nav-link active" href="#homeNavBar">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="index.php/#roomsCards">Rooms</a>
+      <a class="nav-item nav-link" href="#roomsCards">Rooms</a>
+      <a class="nav-item nav-link" href="panel/home.php">Panel</a>
+      <a class="nav-item nav-link" href="logout.php">Cerrar sesion</a>
     </div>
   </div>
 </nav>
